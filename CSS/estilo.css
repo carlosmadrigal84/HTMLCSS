@@ -1,0 +1,19 @@
+h1 {
+    color:var(--title-color);
+}
+
+.midiv {
+    border: solid 1 px red;
+    padding: 20px;
+}
+
+.midiv > p {
+    border: drakgreen solid 1 px;
+    padding: 20px
+}
+
+.micode {display: inline-block;
+    background-color: blue;
+    padding: 10px;
+    margin-top: 50px;
+}

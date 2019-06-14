@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap')
+
+#contacto {
+    background-color: black;
+    color: antiquewhite;
+}
+
+.letra-arial {
+    font-family: Arial, "Courier New", Courier, monospace;
+    text-align: center;
+    color: chocolate;
+    background-color: darkred
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    font-family: Roboto, Arial, Arial, Helvetica, sans-serif;
+}
+
+#contacto > h1 {
+    color:red;
+}
