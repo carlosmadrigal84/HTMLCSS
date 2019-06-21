@@ -1,8 +1,9 @@
 #header{
     background: black;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
     overflow: auto;
+    height: 60px;
   }
   #header a{
     font-family:helvetica;
@@ -11,9 +12,11 @@
   #header a:hover{
     color:red;
   }
-  /*body{
-      background-color: aquamarine;
-  }*/
+  .logo {
+    display: flexbox
+    justify-content: center;
+  }
+
   img {
     position: absolute;
     left: 0px;
@@ -23,13 +26,6 @@
   }
   a{
     text-decoration: none;
-  }
-  .logo{
-    float: left;
-    display: inline-block;
-    background: red;
-    margin-right: 20px;
-    padding: 20px;
   }
   .leftMenu{
     float: left;
@@ -74,7 +70,6 @@
   
   #largeImage{
     padding: 200px 25px;
-    background: url(https://images.app.goo.gl/6HVgU2kmvp18JaxMA) no-repeat left center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
