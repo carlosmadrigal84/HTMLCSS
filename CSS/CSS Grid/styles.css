@@ -1,0 +1,64 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    border: solid 5px gold;
+    text-align: center;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: 100px;
+    grid-template-areas: "header header header"
+                         "nav    main   side1"
+                         "nav    main   side2"
+                         "footer footer footer";
+    height: 100vh;
+    width: 800px;
+    border: solid 1px red;
+  
+    justify-content: stretch;
+    align-content: stretch;
+  
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .item1 {
+    grid-area: header;
+  }
+  
+  .item2 {
+    grid-area: nav;
+  }
+  
+  .item3 {
+    grid-area: main;
+    justify-self: stretch;
+    align-self: stretch;
+  }
+  
+  .item4 {
+    grid-area: side2;
+  }
+  
+  .item5 {
+    grid-area: side1;
+  }
+  
+  .item6 {
+    grid-area: footer;
+  }
+  

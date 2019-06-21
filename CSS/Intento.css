@@ -1,0 +1,18 @@
+
+h1 {
+    color: cyan;
+    background-color: red;
+    position: center;
+    background-position: absolute;
+    width: 60%;
+    height: 40px;
+
+    
+}
+.main {
+    text-align: center;
+  }
+
+  li {
+      display: inline;
+  }

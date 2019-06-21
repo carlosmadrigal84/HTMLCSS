@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .container {
+            margin: 10rem;
+        }
+
+        .square {
+            width: 200px;
+            height: 200px;
+            border: solid black 2px;
+            background-color: coral;
+
+            /* transform: translate(100px, 150px);
+            transform: rotate(30deg);
+            transform: scale(.5, .5);
+            transform: skewX(-10deg); */
+
+            transform: translate(100px, 150px) rotate(30deg);
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="square"></div>
+    </div>
+</body>
+</html>

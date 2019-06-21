@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tres columnas</title>
+
+    <style>
+        *,
+        *:after,
+        *:before {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 2fr 6fr 2fr;
+            height: 100vh;
+        }
+
+        .left-column {
+            background-color: lightblue;
+        }
+
+        .right-column {
+            background-color: lightgoldenrodyellow;
+        }
+
+        .center-column {
+            background-color: coral;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left-column">left-column</div>
+        <div class="center-column">center-column
+            
+        </div>
+        <div class="right-column">right-column</div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+/* HEADER */
+
+.header {
+    height: 100vh;
+    background-image: url(../imagenes/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .header > h1 {
+    font-weight: 100;
+    margin-left: 55vw;
+  }
+  
+  .header > h1 > span {
+    display: block;
+    font-weight: 700;
+    font-family: juego-tronos;
+  }
+  
+  .header > .tagline {
+    margin-left: 55vw;
+  }
+  
