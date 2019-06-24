@@ -71,7 +71,7 @@ nav ul li a {
   /*navbar-flexbox*/
 
   .navbar {
-    background-color: white;
+    background-color: black;
     width: 100%;
     position: fixed;
     top: 0;
@@ -92,14 +92,14 @@ nav ul li a {
   
   .navbar-item > a {
     text-decoration: none;
-    color: #222222;
+    color: whitesmoke;
     padding: 1rem;
     display: block;
   }
   
   .navbar-item > a:hover {
-    color: azure;
-    background-color: #222222;
+    color: darkred;
+    background-color: yellow;
     transition: all 1s ease-in;
   }
   
@@ -122,12 +122,15 @@ nav ul li a {
   }
   .videoBoxes{
       display: inline-block;
-      background: red;
       height: 250px;
       width: 20%;
       min-height: 150px;
       font-size: 16px;
       margin: 2.5%;
+      background-attachment: fixed;
+  }
+  .row > div:hover {
+      box-shadow: 0px 0px 10px 10px white;
   }
   .videoBoxes h4 {
       margin: 0;
@@ -135,7 +138,7 @@ nav ul li a {
       text-align: center;
   }
   .video1{
-      background: url(../Práctica/fotos/begins.jpg)      
+      background: url(../Práctica/fotos/begins.jpg)   
   }
   .video2{
       background: url(../Práctica/fotos/darkKnight.jpg)
@@ -147,9 +150,9 @@ nav ul li a {
       background: url(../Práctica/fotos/Batman.jpg)
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
       .videoBoxes {
-          width: 95%;
+          width: 95%;       
           margin: 2.5%;
       }
       .videoBoxes h4{
@@ -314,20 +317,18 @@ nav ul li a {
     display: inline-flex
   }
   
-
   .social-list {
     display: flex;
     list-style: none;
     justify-content: flex-end;
   }
-
    
   .social-list i:before {
     font-size: 2rem;
   }
   
   .social-list a:hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
   
   @media all and (max-width: 768px) {
