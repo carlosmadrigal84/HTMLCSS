@@ -23,17 +23,13 @@
 }
 
 .links-list li {
-  margin: .75rem;
+  margin: 1rem;
 }
 
 .social-list {
   display: flex;
   list-style: none;
   justify-content: flex-end;
-}
-
-.social-list li {
-  /* margin: 0 1rem; */
 }
 
 .social-list i:before {

@@ -41,7 +41,7 @@ nav ul li a {
 
   .header {
     height: 100vh;
-    background-image: url(../Práctica/fotos/renace.jpg);
+    background-image: url(../Práctica/fotos/Rises1.jpeg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -111,7 +111,58 @@ nav ul li a {
     margin-left: 1rem;
   
   }
+
+  #videoSection {
+      width: 100%;
+      background: black;
+  }
+  .row{
+      font-size: 0;
+      width: 100%;
+  }
+  .videoBoxes{
+      display: inline-block;
+      background: red;
+      height: 250px;
+      width: 20%;
+      min-height: 150px;
+      font-size: 16px;
+      margin: 2.5%;
+  }
+  .videoBoxes h4 {
+      margin: 0;
+      color: white;
+      text-align: center;
+  }
+  .video1{
+      background: url(../Práctica/fotos/begins.jpg)      
+  }
+  .video2{
+      background: url(../Práctica/fotos/darkKnight.jpg)
+  } 
+  .video3{
+      background: url(../Práctica/fotos/BatmanSuperman.jpg)
+  }
+  .video4{
+      background: url(../Práctica/fotos/Batman.jpg)
+  }
   
+  @media screen and (max-width: 600px) {
+      .videoBoxes {
+          width: 95%;
+          margin: 2.5%;
+      }
+      .videoBoxes h4{
+          font-family: 'Times New Roman', Times, serif;
+          font-weight: 100;
+          font-size: 20px;
+      }
+      .videoBoxes p{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 300;
+        font-size: 15px;
+    }
+  }
   #burger-checkbox {
     display: none;
   }
