@@ -1,7 +1,18 @@
 *, *:after, *:before {
     box-sizing: border-box;
   }
-  
+  .showcase-top {
+    position: relative;
+    z-index: 2;
+    height: 90px;
+}
+.showcase-top img {
+    width: 170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
   body {
     margin: 0;
     padding: 0;

@@ -8,35 +8,6 @@
     padding: 0;
   }
 
-
-/*nav {
-    width: 100%;
-    height: 80px;
-    background-color:#0005;
-    line-height: 80px;
-}
-
-nav ul {
-    float: right;
-    margin-right: 30px;
-}
-
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    transition: 0.8s all;
-}
-
-nav ul li:hover {
-    background-color: grey;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    padding: 30px;
-}*/
-
   /*header*/
 
   .header {
@@ -53,6 +24,7 @@ nav ul li a {
   
   .header > h1 {
     font-weight: 100;
+    margin-top: -5vw;
     margin-left: 55vw;
     color: white;
   }
@@ -66,6 +38,22 @@ nav ul li a {
   .header > .tagline {
     margin-left: 55vw;
     color: white;
+  }
+  .button1 {
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    padding: 12px 20px;
+    background: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 55vw;
+
   }
 
   /*navbar-flexbox*/
@@ -108,8 +96,10 @@ nav ul li a {
     flex-shrink: 0;
     flex-grow: 1;
     flex: 150px;
-    margin-left: 1rem;
-  
+    margin-left: 1rem;  
+  }
+  .logo img:hover{
+      cursor: pointer;
   }
 
   #videoSection {
@@ -127,7 +117,7 @@ nav ul li a {
       min-height: 150px;
       font-size: 16px;
       margin: 2.5%;
-      background-attachment: fixed;
+      background-size: cover;
   }
   .row > div:hover {
       box-shadow: 0px 0px 10px 10px white;
@@ -138,16 +128,16 @@ nav ul li a {
       text-align: center;
   }
   .video1{
-      background: url(../Práctica/fotos/begins.jpg)   
+      background-image: url("../Práctica/fotos/Begins.jpg")  
   }
   .video2{
-      background: url(../Práctica/fotos/darkKnight.jpg)
+      background-image: url("../Práctica/fotos/darkKnight.jpg")
   } 
   .video3{
-      background: url(../Práctica/fotos/BatmanSuperman.jpg)
+      background-image: url("../Práctica/fotos/BatmanSuperman.jpg")
   }
   .video4{
-      background: url(../Práctica/fotos/Batman.jpg)
+      background-image: url("../Práctica/fotos/Batman.jpg")
   }
   
   @media screen and (max-width: 768px) {
@@ -265,7 +255,7 @@ nav ul li a {
   
   section h1 {
     text-align: center;
-    font-family: juego-tronos, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-variant: small-caps;
     font-size: 2.5rem;
   }
