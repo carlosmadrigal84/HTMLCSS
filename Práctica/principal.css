@@ -7,60 +7,6 @@
     margin: 0;
     padding: 0;
   }
-
-  /*header*/
-
-  .header {
-    height: 100vh;
-    background-image: url(../Práctica/fotos/Rises1.jpeg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .header > h1 {
-    font-weight: 100;
-    margin-top: -5vw;
-    margin-left: 55vw;
-    color: white;
-  }
-  
-  .header > h1 > span {
-    display: block;
-    font-weight: 700;
-    color: white;
-  }
-  
-  .header > .tagline {
-    margin-left: 55vw;
-    color: white;
-  }
-  .button1 {
-    display: inline-block;
-    width: 120px;
-    height: 50px;
-    padding: 12px 20px;
-    background: black;
-    color: white;
-    border: 2px solid white;
-    border-radius: 10px 10px 10px 10px;
-    cursor: pointer;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
-    margin-left: 55vw;
-  }
-  .header > div:hover {
-    color: black;
-    background-color: white;
-}
-
-  /*navbar-flexbox*/
-
   .navbar {
     background-color: black;
     width: 100%;
@@ -104,60 +50,35 @@
   .logo img:hover{
       cursor: pointer;
   }
-
-  #videoSection {
+  .contenedor{
+      background-color: black;
       width: 100%;
-      background: black;
-  }
-  .row{
-      font-size: 0;
-      width: 100%;
-  }
-  .videoBoxes{
-      display: inline-block;
-      height: 250px;
-      width: 20%;
-      min-height: 150px;
-      font-size: 16px;
-      margin: 2.5%;
-      background-size: cover;
-  }
-  .row > div:hover {
-      box-shadow: 0px 0px 10px 10px white;
-  }
-  .videoBoxes h4 {
-      margin: 0;
-      color: white;
+      max-width: 1200px;
+      border: 3px solid black;
+      margin: 55px auto;
+      font-size: 50px;
+      line-height: 50px;
       text-align: center;
   }
-  .video1{
-      background-image: url("../Práctica/fotos/Begins.jpg")  
+  .contenedor > div {
+      display: block;
+      padding: 20px;
+      color: white;
+      background: black;
+      box-shadow: 2px 2px 10px rgba(0,0,0,.25);
   }
-  .video2{
-      background-image: url("../Práctica/fotos/darkKnight.jpg")
-  } 
-  .video3{
-      background-image: url("../Práctica/fotos/BatmanSuperman.jpg")
+  .contenedor {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      grid-template-rows: 150px;
+      grid-gap: 5px;
   }
-  .video4{
-      background-image: url("../Práctica/fotos/Batman.jpg")
-  }
-  
-  @media screen and (max-width: 768px) {
-      .videoBoxes {
-          width: 95%;       
-          margin: 2.5%;
-      }
-      .videoBoxes h4{
-          font-family: 'Times New Roman', Times, serif;
-          font-weight: 100;
-          font-size: 20px;
-      }
-      .videoBoxes p{
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 300;
-        font-size: 15px;
-    }
+  .contenedor .item {
+      display: grid;
+      justify-self: stretch;
+      align-self: stretch;
+      background-size: cover;
+
   }
   #burger-checkbox {
     display: none;
@@ -242,43 +163,6 @@
     --bg-inverted: #EFEFFE;
   
   }
-  
-  * {
-    font-family: Roboto;
-  }
-  
-  main {
-    max-width: var(--max-width);
-    margin: 0 auto;
-  }
-  
-  section {
-    padding: 3rem 1rem;
-  }
-  
-  section h1 {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-variant: small-caps;
-    font-size: 2.5rem;
-  }
-  
-  section img {
-    max-width: 100%;
-  }
-  
-  section.inverted {
-    background-color: var(--bg-inverted);
-    margin-left: calc(50% - 50vw + .6rem);
-    margin-right: calc(50% - 50vw + .6rem);
-  }
-  
-  section .centered {
-    max-width: var(--max-width);
-    margin: 0 auto;
-  }
-  
-  
   /*footer*/
 
   .footer {
