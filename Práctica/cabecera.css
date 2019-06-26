@@ -1,0 +1,48 @@
+  .header {
+    height: 100vh;
+    background-image: url(../Práctica/fotos/Rises1.jpeg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .header > h1 {
+    font-weight: 100;
+    margin-top: -5vw;
+    margin-left: 55vw;
+    color: white;
+  }
+  
+  .header > h1 > span {
+    display: block;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .header > .tagline {
+    margin-left: 55vw;
+    color: white;
+  }
+  .button1 {
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    padding: 12px 20px;
+    background: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 55vw;
+  }
+  .header > div:hover {
+    color: black;
+    background-color: white;
+}

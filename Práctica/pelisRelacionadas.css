@@ -1,0 +1,37 @@
+#videoSection {
+    width: 100%;
+    background: black;
+}
+.row{
+    font-size: 0;
+    width: 100%;
+}
+.videoBoxes{
+    display: inline-block;
+    height: 250px;
+    width: 20%;
+    min-height: 150px;
+    font-size: 16px;
+    margin: 2.5%;
+    background-size: cover;
+}
+.row > div:hover {
+    box-shadow: 0px 0px 10px 10px white;
+}
+.videoBoxes h4 {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+.video1{
+    background-image: url("../Práctica/fotos/Begins.jpg")  
+}
+.video2{
+    background-image: url("../Práctica/fotos/darkKnight.jpg")
+} 
+.video3{
+    background-image: url("../Práctica/fotos/BatmanSuperman.jpg")
+}
+.video4{
+    background-image: url("../Práctica/fotos/Batman.jpg")
+}
