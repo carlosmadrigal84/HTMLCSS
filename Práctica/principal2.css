@@ -92,26 +92,26 @@
     .contenedor .item1 {
       justify-self: stretch;
       align-self: stretch;
-      background-size: cover;
-      background-image: url("../Práctica/fotos/Begins.jpg")
+      background-size: 100% 100%;
+      background-image: url("../Práctica/fotos/justiceleague.jpg")
     }
     .contenedor .item2 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
-        background-image: url("../Práctica/fotos/darkKnight.jpg")
+        background-size: 100% 100%;
+        background-image: url("../Práctica/fotos/caballerooscuro.jpg")
     }
     .contenedor .item3 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
-        background-image: url("../Práctica/fotos/rises.jpg")
+        background-size: 100% 100%;
+        background-image: url("../Práctica/fotos/Batman.jpg")
     }
     .contenedor .item4 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
-        background-image: url("../Práctica/fotos/BatmanCartel.jpg")
+        background-size: 100% 100%;
+        background-image: url("../Práctica/fotos/batmanlego.jpg")
     }
     .contenedor .item18 {
         grid-column-start: 1;
@@ -123,25 +123,25 @@
     .contenedor .item5 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
+        background-size: 100% 100%;
         background-image: url("../Práctica/fotos/Gotham.jpg")
     }
     .contenedor .item6 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
+        background-size: 100% 100%;
         background-image: url("../Práctica/fotos/animada.jpg")
     }
     .contenedor .item7 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
+        background-size: 100% 100%;
         background-image: url("../Práctica/fotos/antigua.jpg")
     }
     .contenedor .item8 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
+        background-size: 100% 100%;
         background-image: url("../Práctica/fotos/beyond.jpg")
     }
     .contenedor .item19 {
@@ -154,25 +154,25 @@
     .contenedor .item9 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
-        background-image: url("../Práctica/fotos/anouno.jpg")
+        background-size: 100% 100%;
+        background-image: url("../Práctica/fotos/batman80.jpg")
     }
     .contenedor .item10 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
-        background-image: url("../Práctica/fotos/bromaAsesina.jpeg")
+        background-size: 100% 100%;
+        background-image: url("../Práctica/fotos/bromaAsesina.jpg")
     }
     .contenedor .item11 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
-        background-image: url("../Práctica/fotos/regreso.jpg")
+        background-size: 100% 100%;
+        background-image: url("../Práctica/fotos/yearone.jpg")
     }
     .contenedor .item12 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
+        background-size: 100% 100%;
         background-image: url("../Práctica/fotos/muerteFamilia.jpg")
     }
     .contenedor .item20 {
@@ -185,26 +185,26 @@
     .contenedor .item13 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
+        background-size: 100% 100%;
         background-image: url("../Práctica/fotos/arkhamOrigins.jpg")
     }
     .contenedor .item14 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
-        background-image: url("../Práctica/fotos/arkhamAsylum.jpg")
+        background-size: 100% 100%;
+        background-image: url("../Práctica/fotos/arkhamasylum.jpg")
     }
     .contenedor .item15 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
+        background-size: 100% 100%;
         background-image: url("../Práctica/fotos/arkhamCity.jpg")
     }
     .contenedor .item16 {
         justify-self: stretch;
         align-self: stretch;
-        background-size: cover;
-        background-image: url("../Práctica/fotos/arkhamKnight.jpg")
+        background-size: 100% 100%;
+        background-image: url("../Práctica/fotos/arkhamknight.jpg")
     }
 
   #burger-checkbox {
