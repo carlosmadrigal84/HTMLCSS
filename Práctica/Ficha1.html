@@ -5,21 +5,27 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ficha Pélicula</title>
-    <link rel="stylesheet" href="../Práctica/prueba.css">
+    <link rel="stylesheet" href="./prueba.css">
 
 </head>
 <body>
     <nav class="navbar">
-        <div class="logo"><img src="../Práctica/fotos/batflix3.png" alt="logo batflix3" height= 51px></div>
-        <input type="checkbox" id="burger-checkbox">
-        <label for="burger-checkbox" class="burger-label"></label>
+        <form action="./principal2.html">
+            <div class="logo">
+                <a href="principal2.html">
+                    <img src="../Práctica/fotos/batflix3.png" alt="logo batflix3" height= 51px></div>
+                </a>
+        </form> 
+            <input type="checkbox" id="burger-checkbox">
+            <label for="burger-checkbox" class="burger-label"></label>
+    
 
         <ul class="navbar-list">
             <li class="navbar-item"><a href="#novedades">Novedades</a></li>
             <li class="navbar-item"><a href="#series">Series</a></li>
             <li class="navbar-item"><a href="#peliculas">Películas</a></li>
             <li class="navbar-item"><a href="#busqueda">Búsqueda</a></li>
-            <li class="navbar-item"><a href="#cerrar-sesion">Cerrar Sesión</a></li>
+            <li class="navbar-item"><a href="FormularioLogin2.html">Cerrar Sesión</a></li>
         </ul>
     </nav>
     <header class="header">
@@ -33,10 +39,7 @@
             regrese del exilio para luchar por la supervivencia de la ciudad y la suya propia.</strong><br>
             <strong>+16 - 2012 - USA</strong>
             <div class="button1">Reproducir</div>
-        </p>
-        <!--<p class="tagline"><strong>+16 - 2012 - USA</strong></p>
-        <div class="button1">Reproducir</div>-->
-        
+        </p>    
         <div class="video-container">
             <video autoplay loop id="myVideo">
                 <source src="../Práctica/fotos/videobatman.mp4" type="video/mp4">

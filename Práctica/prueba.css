@@ -48,6 +48,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    background-size: cover;
   }
   .video-container {
     z-index: -1;
@@ -178,6 +179,12 @@
     grid-gap: 5px;
     }
 } 
+
+@media all and (max-width: 768px) {
+.video-container > myVideo{
+    background-size: cover;
+  }
+}
   
 #burger-checkbox {
     display: none;

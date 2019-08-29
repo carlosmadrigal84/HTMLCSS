@@ -52,7 +52,7 @@
   }
   .logo img:hover{
       cursor: pointer;
-  }
+    }
     .contenedor{
       background-color: black;
       opacity: 0.9;
@@ -64,14 +64,14 @@
       line-height: 50px;
       text-align: center;
       justify-content: space-evenly;
-  }
+    }
     .contenedor > div {
       display: block;
       padding: 20px;
       color: white;
       background: black;
       box-shadow: 2px 2px 10px rgba(0,0,0,.25);
-  }
+    }
     .contenedor div:hover {
         cursor: pointer;
         box-shadow: 0px 0px 10px 10px white;
@@ -81,7 +81,11 @@
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: repeat(8, 1fr);
       grid-gap: 10px;
-  }
+    }
+    .contenedor img {
+      max-width: 100%;
+      max-height: 100%;
+    }
     .contenedor .item17 {
         grid-column-start: 1;
         grid-column-end: -1;
@@ -93,25 +97,25 @@
       justify-self: stretch;
       align-self: stretch;
       background-size: 100% 100%;
-      background-image: url("../Práctica/fotos/justiceleague.jpg")
+      /*background-image: url("../Práctica/fotos/justiceleague.jpg")*/
     }
     .contenedor .item2 {
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/caballerooscuro.jpg")
+        /*background-image: url("../Práctica/fotos/caballerooscuro.jpg")*/
     }
     .contenedor .item3 {
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/Batman.jpg")
+        /*background-image: url("../Práctica/fotos/Batman.jpg")*/
     }
     .contenedor .item4 {
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/batmanlego.jpg")
+        /*background-image: url("../Práctica/fotos/batmanlego.jpg")*/
     }
     .contenedor .item18 {
         grid-column-start: 1;
@@ -124,25 +128,25 @@
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/Gotham.jpg")
+        /*background-image: url("../Práctica/fotos/Gotham.jpg")*/
     }
     .contenedor .item6 {
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/animada.jpg")
+        /*background-image: url("../Práctica/fotos/animada.jpg")*/
     }
     .contenedor .item7 {
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/antigua.jpg")
+        /*background-image: url("../Práctica/fotos/antigua.jpg")*/
     }
     .contenedor .item8 {
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/beyond.jpg")
+        /*background-image: url("../Práctica/fotos/beyond.jpg")*/
     }
     .contenedor .item19 {
         grid-column-start: 1;
@@ -155,25 +159,25 @@
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/batman80.jpg")
+        /*background-image: url("../Práctica/fotos/batman80.jpg")*/
     }
     .contenedor .item10 {
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/bromaAsesina.jpg")
+        /*background-image: url("../Práctica/fotos/bromaAsesina.jpg")*/
     }
     .contenedor .item11 {
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/yearone.jpg")
+        /*background-image: url("../Práctica/fotos/yearone.jpg")*/
     }
     .contenedor .item12 {
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/muerteFamilia.jpg")
+        /*background-image: url("../Práctica/fotos/muerteFamilia.jpg")*/
     }
     .contenedor .item20 {
         grid-column-start: 1;
@@ -186,25 +190,25 @@
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/arkhamOrigins.jpg")
+        /*background-image: url("../Práctica/fotos/arkhamOrigins.jpg")*/
     }
     .contenedor .item14 {
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/arkhamasylum.jpg")
+        /*background-image: url("../Práctica/fotos/arkhamasylum.jpg")*/
     }
     .contenedor .item15 {
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/arkhamCity.jpg")
+        /*background-image: url("../Práctica/fotos/arkhamCity.jpg")*/
     }
     .contenedor .item16 {
         justify-self: stretch;
         align-self: stretch;
         background-size: 100% 100%;
-        background-image: url("../Práctica/fotos/arkhamknight.jpg")
+        /*background-image: url("../Práctica/fotos/arkhamknight.jpg")*/
     }
 
   #burger-checkbox {
