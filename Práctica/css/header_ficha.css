@@ -91,14 +91,14 @@
     text-align: center;
 }
 .video1{
-    background-image: url("fotos/Begins.jpg")  
+    background-image: url("../fotos/Begins.jpg")  
 }
 .video2{
-    background-image: url("fotos/caballerooscuro.jpg")
+    background-image: url("../fotos/caballerooscuro.jpg")
 } 
 .video3{
-    background-image: url("fotos/BatmanSuperman.jpg")
+    background-image: url("../fotos/BatmanSuperman.jpg")
 }
 .video4{
-    background-image: url("fotos/Batman.jpg")
+    background-image: url("../fotos/Batman.jpg")
 }
